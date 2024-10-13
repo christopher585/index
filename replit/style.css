@@ -1,0 +1,21 @@
+html {
+    display: grid;
+    place-content: center;
+    place-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  #caja{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 700px;
+    height: 530px;
+    background-color: lightcoral;
+    gap: 10px;
+  }
+#tres{
+    margin-left: 5px;
+}
+#fila{
+    margin: 10px;
+}
